@@ -23,5 +23,6 @@ A entrega obrigatória deve consistir de:
   
   
 <b>Resultados e respostas</b>
+
 Todos os resultados do processo de análise e respostas as perguntas estão disponíveis no grupo-zap-data-challenge.ipynb ou grupo-zap-data-challenge.html
 
