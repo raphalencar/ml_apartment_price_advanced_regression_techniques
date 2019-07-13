@@ -26,3 +26,5 @@ A entrega obrigatória deve consistir de:
 
 Todos os resultados do processo de análise e respostas as perguntas estão disponíveis no grupo-zap-data-challenge.ipynb ou grupo-zap-data-challenge.html
 
+
+Os valores previstos estão disponíveis no arquivo results.csv, composto pelas colunas id e price.
