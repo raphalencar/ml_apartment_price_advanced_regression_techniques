@@ -7,6 +7,7 @@ Dados disponíveis em:
 https://s3.amazonaws.com/grupozap-data-challenge/data/source-4-ds-train.json.zip (treino)
 https://s3.amazonaws.com/grupozap-data-challenge/data/source-4-ds-test.json.zip (teste)
 
+Autor: Raphael Brito Alencar
 
 Entrega:
 A entrega obrigatória deve consistir de:
@@ -19,3 +20,11 @@ A entrega obrigatória deve consistir de:
   * Em quais bairros ou em quais faixas de preço o seu modelo performa melhor?
   * Se você tivesse que estimar o valor dos imóveis com apenas 3 campos, quais seriam eles?
   * Como você vislumbra colocar a sua solução em produção?
+  
+  
+<b>Resultados e respostas</b>
+
+Todos os resultados do processo de análise e respostas as perguntas estão disponíveis no grupo-zap-data-challenge.ipynb ou grupo-zap-data-challenge.html
+
+
+Os valores previstos estão disponíveis no arquivo results.csv, composto pelas colunas id e price.
