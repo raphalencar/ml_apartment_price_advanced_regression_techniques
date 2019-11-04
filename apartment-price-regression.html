@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>grupo-zap-data-challenge</title>
+<title>apartment-price-regression</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13116,7 +13116,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Grupo-Zap:-Data-Science-Challenge">Grupo Zap: Data Science Challenge<a class="anchor-link" href="#Grupo-Zap:-Data-Science-Challenge">&#182;</a></h2><p>Esse notebook aborda o desenvolvimento de um modelo para previsão dos valores do imóveis de um conjunto de dados composto por várias características de cada imóvel.</p>
+<h2 id="Previs&#227;o-dos-pre&#231;os-de-apartamentos---Machine-Learning-Regression">Previs&#227;o dos pre&#231;os de apartamentos - Machine Learning Regression<a class="anchor-link" href="#Previs&#227;o-dos-pre&#231;os-de-apartamentos---Machine-Learning-Regression">&#182;</a></h2><p>Esse notebook aborda o desenvolvimento de um modelo para previsão dos valores do imóveis de um conjunto de dados composto por várias características de cada imóvel.</p>
 <p><strong>Autor</strong>: Raphael Brito Alencar <br>
 <strong>Linguagem</strong>: Python <br>
 <strong>Tipo do problema</strong>: Regressão <br>
@@ -25945,7 +25945,7 @@ xgboost: 0.2335 (0.0032)
 <h2 id="Respostas-as-perguntas-do-desafio">Respostas as perguntas do desafio<a class="anchor-link" href="#Respostas-as-perguntas-do-desafio">&#182;</a></h2><p>1) Você utilizaria a métrica escolhida para seleção de modelo também para comunicar os resultados para usuários e stakeholders internos? Em caso negativo, qual outra métrica você utilizaria nesse caso?</p>
 <p>R: Sim. Por se tratar de uma métrica variante da métrica Mean Squared Erro, que é mais fácil de ser compreendida, mostraria que a inclusão do log na função seria para que os erros em valores de apartamentos mais caros não influenciariam mais do que os erros em apartamentos mais baratos, penalizando igualmente.</p>
 <p>2) Em quais bairros ou em quais faixas de preço o seu modelo performa melhor?</p>
-<p>R: O modelo funciona igualmente para qualquer faixa de preço, exatamente por não ter diferença na penalização dos erros em valores maiores ou menores.</p>
+<p>R: O modelo funciona de forma similar para qualquer faixa de preço, não ter possui diferença significante na penalização dos erros em valores maiores ou menores.</p>
 <p>3) Se você tivesse que estimar o valor dos imóveis com apenas 3 campos, quais seriam eles?</p>
 <p>R: Observando o gráfico de feature importance, utilizaria os campos _suitesPerc, _bedRoomsPerc e usableAreas, sendo os dois primeiros fruto da feature creation a partir do agrupamento por Zona e Bairro</p>
 <p>4) Como você vislumbra colocar a sua solução em produção?</p>
